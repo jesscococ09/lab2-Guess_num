@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2: Guess the Number</title>
+
+    <script src="js/script.js" defer></script>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="part1">
+    <header>Guess the Number!</header>
+    <h1>(1 to 100) in 7 attempts</h1>
+    </div>
+
+    Guess:
+    <!-- creates a text box -->
+    <input id="userGuess" type="text" size=5>
+    <button id="guessBtn">Guess!</button>
+
+    <h2 id="hiLo"></h2>
+
+    <div id="part2">
+    <h3>Previous Guesses:<span id="userGuesses"></span></h3>
+    <h4>Attempts:<span id="attempts"></span></h4>
+    <h5>Wins:<span id="wins"></span></h5>
+    <h6>Losses:<span id="losses"></span></h6>
+    </div>
+
+    <br>
+    <button id="playBtn">Play Again</button>
+</body>
+</html>
