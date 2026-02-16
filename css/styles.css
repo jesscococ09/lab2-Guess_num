@@ -28,11 +28,18 @@ h1{
     margin: auto;
 }
 
-h3 {
+h2 {
     margin: 0;
     color: black;
     background-color: white;
     font-size: 25px;
+}
+
+h3 {
+    margin: 0;
+    color: black;
+    background-color: white;
+    font-size: 20px;
 }
 
 h4 {
@@ -43,13 +50,6 @@ h4 {
 }
 
 h5 {
-    margin: 0;
-    color: black;
-    background-color: white;
-    font-size: 20px;
-}
-
-h6 {
     margin: 0;
     color: black;
     background-color: white;
